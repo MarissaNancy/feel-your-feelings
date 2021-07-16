@@ -6,7 +6,7 @@ const Schema = mongoose.Schema;
 const DrinkSchema = new Schema({
     drinktype:[{
 
-    type: {
+    alcoholic: {
         type: Boolean,
         trim: true,
         required: "Type required"
