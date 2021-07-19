@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+}
+.signup-form{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top:10%;
+}
+
+.signup-label{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    display: flex;
+    text-align: center;
+    color:white;
+}
+
+.name-field{
+    display: flex;
+    border-radius: 10px;
+    border: white solid;
+    margin: 10px;
+    padding:5px
+}
+.email-field{
+    display: flex;
+    border-radius: 10px;
+    border: white solid;
+    margin: 10px;
+    padding:5px
+}
+
+.password-field{
+    display: flex;
+    border-radius: 10px;
+    border: white solid;
+    margin: 10px;
+    padding:5px
+}
