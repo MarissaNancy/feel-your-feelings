@@ -1,0 +1,32 @@
+.login-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10%;
+}
+
+.login-label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    color:white;
+}
+
+.email-field{
+    border-radius: 10px;
+    border: white solid;
+    margin: 10px;
+    padding:5px
+}
+
+.password-field{
+    border-radius: 10px;
+    border: white solid;
+    margin: 10px;
+    padding:5px
+}
