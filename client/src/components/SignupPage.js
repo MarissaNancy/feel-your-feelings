@@ -37,6 +37,7 @@ const handleSubmit = e => {
                 placeholder="email"
                 onChange={ e => setEmail(e.target.value)} />
                 <h1>Password:</h1>
+
                 <input 
                 className="password-field" 
                 type="text" 
@@ -51,6 +52,7 @@ const handleSubmit = e => {
                 placeholder="confirm password"
                 onchange={ e => setPassword2(e.target.value)} />
                 <Button className="signup-btn" type="submit" buttonStyle="signup--btn" buttonSize="btn--large">Sign Up</Button>
+
             </label>
         </form>
     )
