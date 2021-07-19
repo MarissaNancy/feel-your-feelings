@@ -1,0 +1,37 @@
+.hero-container {
+    background: url("../images/fyflogo.png") center center no-repeat;
+    margin: 0 auto;
+    margin-top: 5%;
+    display:flex;
+    justify-content: center;
+    height:300px;
+    width: 300px;
+    align-items: center;
+    object-fit: contain;
+    background-size: contain;
+}
+.lower-section h1{
+    text-align: center;
+    color: white;
+}
+
+
+.lower-section{
+    display:flex;
+    justify-content: center;
+    position: absolute;
+    bottom:15%;
+    width:50%;
+
+}
+
+.hero-btns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    border:1px solid;
+    border:white;
+    font-size: 20px;
+}
+
