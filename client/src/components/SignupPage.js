@@ -15,7 +15,8 @@ function SignupPage() {
                 <input className="email-field" type="text" name="email" />
                 <h1>Password:</h1>
                 <input className="password-field" type="text" name="password" />
-                <h1>Date of Birth</h1>
+                <h1>Confirm Password:</h1>
+                <input className="password-field2" type="text" name="password2" />
                 <Button className="signup-btn" buttonStyle="signup--btn" buttonSize="btn--large">Sign Up</Button>
             </label>
         </form>

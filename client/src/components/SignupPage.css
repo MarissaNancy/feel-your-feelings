@@ -46,3 +46,11 @@ h1{
     margin: 10px;
     padding:5px
 }
+
+.password-field2{
+    display: flex;
+    border-radius: 10px;
+    border: white solid;
+    margin: 10px;
+    padding:5px
+}
