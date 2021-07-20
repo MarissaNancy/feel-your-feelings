@@ -73,3 +73,12 @@
     margin: 1%;
     transition: all 0.3s ease-out;
 }
+
+.remove--btn{
+    background-color:crimson;
+    color:white;
+    border-radius: 100px;
+    padding: 10px 20px;
+    margin: 1%;
+    transition: all 0.3s ease-out;
+}

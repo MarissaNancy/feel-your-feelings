@@ -6,10 +6,10 @@ import "../App.css";
 
 function HeroSection() {
     return (
-        <div className="col-lg-12 hero-container">
-            <div className="row col-md-12 lower-section">
+        <div className="hero-container">
+            <div className="lower-section">
             <h1>How are you feeling today?</h1>
-            <div className="col-12 hero-btns">
+            <div className="hero-btns">
                 <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">Happy</Button>
                 <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">Moody</Button>
                 <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">Tired</Button>
