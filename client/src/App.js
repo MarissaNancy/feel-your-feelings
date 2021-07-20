@@ -6,6 +6,7 @@ import Login from './components/pages/Login';
 import Signup from './components/pages/Signup';
 import { BounceLoader, Barloader, BeatLoader } from "react-spinners";
 import "react-datepicker/dist/react-datepicker.css";
+import Profile from './components/pages/Profile';
 import './App.css';
 
 
@@ -23,6 +24,9 @@ export default function App() {
         </Switch>
         <Switch>
           <Route path="/sign-up" exact component={Signup}/>
+        </Switch>
+        <Switch>
+          <Route exact path="/profile" component={Profile}/>
         </Switch>
       </Router>
     </>
