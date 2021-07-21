@@ -8,6 +8,7 @@ import { BounceLoader, Barloader, BeatLoader } from "react-spinners";
 import "react-datepicker/dist/react-datepicker.css";
 import Profile from './components/pages/Profile';
 import './App.css';
+import Dashboard from "./components/pages/Dashboard";
 
 
 
@@ -17,16 +18,19 @@ export default function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path="/" exact component={Home}/>
+          <Route path="/" exact component={Login}/>
         </Switch>
-        <Switch>
+        {/* <Switch>
           <Route path="/login" exact component={Login}/>
-        </Switch>
+        </Switch> */}
         <Switch>
           <Route path="/sign-up" exact component={Signup}/>
         </Switch>
         <Switch>
           <Route exact path="/profile" component={Profile}/>
+        </Switch>
+        <Switch>
+          <Route exact path="/dashboard" component={Dashboard}/>
         </Switch>
       </Router>
     </>

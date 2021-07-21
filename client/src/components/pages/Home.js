@@ -1,9 +1,9 @@
 import React from 'react';
 import '../../App.css';
-import HeroSection from '../HeroSection';
+import Login from '../LoginPage';
 
 function Home () {
-    return (<HeroSection />)
+    return (<Login />)
     
 }
 
