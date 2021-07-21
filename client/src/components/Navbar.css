@@ -80,6 +80,10 @@
     position: relative;
   }
 
+  .navbar{
+    background-color: rgb(20, 77, 162);
+  }
+
   .nav-menu {
     display: flex;
     flex-direction: column;
@@ -119,6 +123,8 @@
     position: absolute;
     top: 0;
     left: 0;
+    margin: auto;
+    font-size:30px;
     transform: translate(25%, 50%);
   }
 
