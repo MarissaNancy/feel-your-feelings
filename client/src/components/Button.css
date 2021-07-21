@@ -82,3 +82,12 @@
     margin: 1%;
     transition: all 0.3s ease-out;
 }
+
+.favorite--btn{
+    background-color:darkviolet;
+    color:white;
+    border-radius: 100px;
+    padding: 10px 20px;
+    margin: 1%;
+    transition: all 0.3s ease-out;
+}
