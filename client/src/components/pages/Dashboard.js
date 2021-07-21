@@ -5,7 +5,6 @@ import HeroSection from '../HeroSection';
 function Dashboard () {
     return ( <div>
             <HeroSection />,
-            <h1>Welcome Nancy and Lilly, how are you feeling Today?</h1>
             </div>
     )
 }

@@ -34,6 +34,7 @@
 .btn--large{
     padding: 12px 26px;
     font-size: 20px;
+    margin:5px;
 }
 
 .btn--medium:hover, .btn--large:hover{
@@ -60,7 +61,6 @@
     padding: 10px 60px;
     border: 1px solid white;
     margin-right: 0 auto;
-    margin:0.1%;
     transition: all 0.3s ease-out;
 }
 

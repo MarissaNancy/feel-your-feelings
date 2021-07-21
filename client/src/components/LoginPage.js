@@ -2,6 +2,9 @@ import React from 'react'
 import "./LoginPage.css";
 import { Button } from './Button';
 
+
+
+
 function LoginPage() {
     return (
         <form className="login-form">
@@ -15,6 +18,38 @@ function LoginPage() {
                             Sign Up
                         </Link> */}
             </label>
+
+            <image className="logo"></image>
+
+            <label className="signup-label">
+                <h1>Name:</h1>
+                <input
+                    className="name-field"
+                    type="text"
+                    name="name"
+                    placeholder="username" />
+                <h1>Email:</h1>
+                <input
+                    className="email-field"
+                    type="text"
+                    name="email"
+                    placeholder="email" />
+                <h1>Password:</h1>
+                <input
+                    className="password-field"
+                    type="text"
+                    name="password"
+                    placeholder="password" />
+                <h1>Confirm Password:</h1>
+                <input
+                    className="password-field"
+                    type="text"
+                    name="password2"
+                    placeholder="confirm password" />
+                <Button className="signup-btn" type="submit" buttonStyle="signup--btn" buttonSize="btn--large">Sign Up</Button>
+
+            </label>
+
         </form>
     )
 }

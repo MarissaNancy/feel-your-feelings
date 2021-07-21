@@ -8,7 +8,7 @@ function HeroSection() {
     return (
         <div className="hero-container">
             <div className="lower-section">
-            <h1>How are you feeling today?</h1>
+            <h1>Welcome Alejandro, Henry, Nancy and Lilly, how are you feeling Today?</h1>
             <div className="hero-btns">
                 <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">Happy</Button>
                 <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">Moody</Button>

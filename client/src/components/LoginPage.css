@@ -1,8 +1,18 @@
+.logo {
+        background: url("../images/fyflogo.png") center center no-repeat;
+        display:flex;
+        height:400px;
+        width: 400px;
+        align-items: center;
+        object-fit: contain;
+        background-size: contain;
+    }
 .login-form{
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
     align-items: center;
-    margin-top:10%;
+    margin-top:5%;
+    margin-bottom: 5%;
 }
 
 .login-label{
