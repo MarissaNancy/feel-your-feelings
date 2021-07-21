@@ -10,14 +10,13 @@
     object-fit: contain;
     background-size: contain;
 }
-.lower-section h1{
-    text-align: center;
-    color: white;
-}
+
 
 
 .lower-section{
     display:flex;
+    flex-direction: column;
+    text-align: center;
     justify-content: center;
     position: absolute;
     bottom:15%;
