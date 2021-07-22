@@ -1,9 +1,12 @@
 import React from 'react';
 import '../../App.css';
 import MoodsPage from '../MoodsPage';
+import { Link, useParams } from "react-router-dom";
 
 function Moods() {
-    return (<MoodsPage />)
+    const {type} = useParams()
+    console.log(type)
+    return (<MoodsPage type={type} />)
 }
 
 export default Moods
