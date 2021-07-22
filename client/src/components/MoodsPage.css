@@ -1,0 +1,12 @@
+/* .mood-card{
+    display: flex;
+    justify-content: center;
+} */
+
+.favorite-btn{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom:0.1%;
+}

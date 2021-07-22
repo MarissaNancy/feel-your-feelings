@@ -28,3 +28,9 @@
     padding: 20px;
 }
 
+@media screen and (max-width: 960px) {
+    .lower-section {
+    position: relative;
+    margin-top: +500%;
+    }
+}

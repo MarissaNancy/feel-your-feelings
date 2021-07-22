@@ -16,12 +16,6 @@ const DrinkSchema = new Schema({
         trim: true,
         required: "Drink name required"
     },
-    
-    category: {
-        type: String,
-        trim: true,
-        required: "Category required"
-    },
 
     img: {
         type: String,
@@ -32,7 +26,25 @@ const DrinkSchema = new Schema({
         trim: true,
         required: "URL required"
     },
+
+    category: {
+        type: String,
+        trim: true,
+        required: "Category required"
+    },
     
+    ingridients: {
+        type: String,
+        trim: true
+    },
+
+    instructions: {
+        type: String,
+        trim: true 
+    }
+
+    }],    
+
 })
 
 const Drink = mongoose.model("Drink", DrinkSchema);
