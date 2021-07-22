@@ -10,11 +10,11 @@ export default {
 //     return axios.get("/api/moods/" + id);
 // },
 getDrink: function(){
-    return axios.get("/api/drinks")
-}
+    return axios.get("/api/drinks");
+},
 //Gets the drink with the given
 getDrink: function(category){
     return axios.get("/api/drinks/" + category);
 }
 
-}
+};
