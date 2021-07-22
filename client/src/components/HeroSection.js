@@ -20,13 +20,27 @@ function HeroSection() {
                 <Link to='/moods/tired' className="btn-mobile">
                 <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">Tired</Button>
                 </Link>
+                <Link to='/moods/grumpy' className="btn-mobile">
                 <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">Grumpy</Button>
+                </Link>
+                <Link to='/moods/nostalgic' className="btn-mobile">
                 <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">Nostalgic</Button>
+                </Link>
+                <Link to='/moods/romantic' className="btn-mobile">
                 <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">Romantic</Button>
+                </Link>
+                <Link to='/moods/fun' className="btn-mobile">
                 <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">Fun</Button>
+                </Link>
+                <Link to='/moods/active' className="btn-mobile">
                 <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">Active</Button>
+                </Link>
+                <Link to='/moods/motivated' className="btn-mobile">
                 <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">Motivated</Button>
+                </Link>
+                <Link to='/moods/lazy' className="btn-mobile">
                 <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">Lazy</Button>
+                </Link>
             </div>
             </div>
         </div>
