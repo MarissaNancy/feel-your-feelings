@@ -4,7 +4,6 @@ const Schema = mongoose.Schema;
 
 //type refers to alcoholic or non
 const DrinkSchema = new Schema({
-    drinktype:[{
 
     alcoholic: {
         type: Boolean,
@@ -25,8 +24,7 @@ const DrinkSchema = new Schema({
     },
 
     img: {
-        type: Buffer,
-        contentType: String
+        type: String,
     },
 
     url: {
@@ -34,10 +32,9 @@ const DrinkSchema = new Schema({
         trim: true,
         required: "URL required"
     },
-
-    }],    
+    
 })
 
-const Drink = mongoose.model("Drink", DrinkSchema);
+const Drink = mongoose.model("drink", DrinkSchema);
 
 module.exports = Drink

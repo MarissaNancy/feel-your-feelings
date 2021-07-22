@@ -1,4 +1,4 @@
-const db = require("../models");
+const db = require("../models/");
 
 module.exports = {
 findAll: function(req, res){
@@ -21,19 +21,15 @@ create: function(req,res){
 },
 update: function(req,res){
     db.Drink
-    .findOneAndUpdate({_category: req.params.category}, req.body)
+    .findOneAndUpdate({category: req.params.category}, req.body)
     .then(dbModel => res.json(dbModel))
     .catch(err => res.status(400).json(err)); 
 },
 remove: function(req,res){
     db.Drink
-    .findByCategory({ _category: req.params.category})
+    .findByCategory({ category: req.params.category})
     .thn(dbModel => dbModel.remove())
     .then(dbModel => res.json(dbModel))
     .catch(err => res.status(400).json(err)); 
 }
-
-
-
-
-}
+};
