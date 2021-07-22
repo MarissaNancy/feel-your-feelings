@@ -7,9 +7,6 @@ const passport = require("passport");
 // const drinks = require("./routes/api/drinks")
 const routes =require("./routes");
 
-const PORT = process.env.PORT || 3001;
-
-
 // Bodyparser middleware
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
