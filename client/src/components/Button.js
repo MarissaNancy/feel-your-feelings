@@ -2,7 +2,7 @@ import React from 'react';
 import './Button.css';
 import { Link } from 'react-router-dom';
 
-const STYLES = ["btn--primary", "btn--outline", "login--btn", "signup--btn", "mood--btn", "remove--btn"];
+const STYLES = ["btn--primary", "btn--outline", "login--btn", "signup--btn", "mood--btn", "remove--btn", "favorite--btn"];
 const SIZES = ["btn--medium", "btn--large"];
 
 export const Button = ({ children, type, onClick, buttonStyle, buttonSize }) => {
@@ -10,7 +10,6 @@ export const Button = ({ children, type, onClick, buttonStyle, buttonSize }) => 
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0]
 
     return (
-        <Link to='/dashboard' className="btn-mobile">
             <button 
             className={`btn ${checkButtonStyle} ${checkButtonSize}`} 
             onClick={onClick} 
@@ -18,6 +17,5 @@ export const Button = ({ children, type, onClick, buttonStyle, buttonSize }) => 
             >
                 {children}
             </button>
-        </Link>
     )
 };

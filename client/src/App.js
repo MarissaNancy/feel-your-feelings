@@ -9,6 +9,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import Profile from './components/pages/Profile';
 import './App.css';
 import Dashboard from "./components/pages/Dashboard";
+import Moods from "./components/pages/Moods"
 
 
 
@@ -31,6 +32,9 @@ export default function App() {
         </Switch>
         <Switch>
           <Route exact path="/dashboard" component={Dashboard}/>
+        </Switch>
+        <Switch>
+          <Route exact path="/moods/:type" component={Moods}/>
         </Switch>
       </Router>
     </>

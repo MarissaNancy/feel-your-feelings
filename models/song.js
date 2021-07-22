@@ -25,6 +25,12 @@ const SongSchema = new Schema({
         type: String,
     },
 
+    category: {
+        type: String,
+        trim: true,
+        required: "Category required"
+    },
+
 });
 
 const Song = mongoose.model("Song", SongSchema);
