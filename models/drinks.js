@@ -35,6 +35,6 @@ const DrinkSchema = new Schema({
     
 })
 
-const Drink = mongoose.model("drink", DrinkSchema);
+const Drink = mongoose.model("Drink", DrinkSchema);
 
 module.exports = Drink
