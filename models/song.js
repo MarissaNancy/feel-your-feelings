@@ -22,8 +22,7 @@ const SongSchema = new Schema({
     },
 
     thumbnail: {
-        type: Buffer,
-        contentType: String
+        type: String,
     },
 
     category: {
