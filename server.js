@@ -3,12 +3,7 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const app = express();
 const passport = require("passport");
-// const users = require("./routes/api/users");
-// const drinks = require("./routes/api/drinks")
 const routes =require("./routes");
-
-const PORT = process.env.PORT || 3001;
-
 
 // Bodyparser middleware
 app.use(bodyParser.urlencoded({extended: false}));
@@ -25,8 +20,6 @@ app.use(passport.initialize());
 // Passport config
 require("./config/passport")(passport);
 // Routes
-// app.use("/api/users", users);
-// app.use("api/drinks", drinks);
 app.use(routes);
 
 const port = process.env.PORT || 3001; // process.env.port is Heroku's port if you choose to deploy the app there
