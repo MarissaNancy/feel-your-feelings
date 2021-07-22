@@ -15,6 +15,12 @@ getDrink: function(){
 //Gets the drink with the given
 getDrink: function(category){
     return axios.get("/api/drinks/" + category);
+},
+getSong: function(){
+    return axios.get("/api/songs");
+},
+//Gets the drink with the given
+getSong: function(category){
+    return axios.get("/api/songs/" + category);
 }
-
 };

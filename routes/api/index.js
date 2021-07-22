@@ -1,13 +1,13 @@
 const router = require("express").Router();
 // const path = require("path");
 const drinkRoutes = require("./drinks");
-const userRoutes = require("./users");
-// const moodRoutes = require("./mood");
 
+const songRoutes = require("./songs");
+const userRoutes = require("./users");
 
 router.use('/drinks', drinkRoutes);
+router.use('/songs', songRoutes);
 router.use('/users', userRoutes);
-// router.use('/moods', moodRoutes);
 
 // For anything else, render the html page
 // router.use(function(req, res) {
