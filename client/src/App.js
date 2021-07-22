@@ -34,7 +34,7 @@ export default function App() {
           <Route exact path="/dashboard" component={Dashboard}/>
         </Switch>
         <Switch>
-          <Route exact path="/moods" component={Moods}/>
+          <Route exact path="/moods/:type" component={Moods}/>
         </Switch>
       </Router>
     </>
