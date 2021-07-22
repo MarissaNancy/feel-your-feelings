@@ -21,11 +21,11 @@
 const router = require("express").Router();
 const drinkController = require("../../controllers/drinksController")
 
-router.route("/drinks")
+router.route("/")
 .get(drinkController.findAll)
 .post(drinkController.create);
 
-router.route("/drinks/:category")
+router.route("/:category")
 .get(drinkController.findByCategory)
 .put(drinkController.update)
 .delete(drinkController.remove)
