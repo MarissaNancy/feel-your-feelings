@@ -83,10 +83,22 @@
 }
 
 .favorite--btn{
-    background-color:darkviolet;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size:600% 600%;
+    animation: change 10s ease-in-out infinite;
+    color:white;
+    border-radius: 100px;
+    border: solid white 2px;
+    padding: 10px 20px;
+    margin: 1%;
+    transition: all 0.3s ease-out;
+}
+
+.back--btn{
+    background-color:rgb(0, 95, 211);
     color:white;
     border-radius: 100px;
     padding: 10px 20px;
-    margin: 1%;
+    border: solid white 2px;
     transition: all 0.3s ease-out;
 }
