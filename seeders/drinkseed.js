@@ -11,8 +11,6 @@ mongoose.connect(MONGO_URI || "mongodb://localhost/feelings", {
 
 let drinkSeed = [
   {
-    drinktype: [
-      {
         alcoholic: "True",
         name: "Mocha Martini",
         img: "",
@@ -20,12 +18,9 @@ let drinkSeed = [
         category: "Happy",
         ingridients:"1 oz espresso chilled, 1 ½ oz vodka, 1 ½ oz of coffee liqueur, 1 oz white creme de cacao",
         instructions: "Stir ingredients with ice. Strain into cocktail glass and enjoy!"
-      }
-    ]
   },
   {
-    drinktype: [
-      {
+
         alcoholic: "True",
         name: "Frozen Pina Colada",
         img: "",
@@ -33,12 +28,8 @@ let drinkSeed = [
         category: "Happy",
         ingridients: "3 oz light rum, 4 oz coconut milk, 3 oz crushed pineapple or juice",
         instructions: "Combine ingredients in a blender and mix on low. Fill blender half with ice and blend until slushy. Pour into a glass and garnish with pineapple wedge and enjoy!"
-      }
-    ]
   },
   {
-    drinktype: [
-      {
         alcoholic: "False",
         name: "Sweet Cream Cold Brew",
         img: "",
@@ -46,12 +37,8 @@ let drinkSeed = [
         category: "Happy",
         ingridients:"",
         instructions: ""
-      }
-    ]
   },
   {
-    drinktype: [
-      {
         alcoholic: "True",
         name: "Rusty Nail",
         img: "",
@@ -59,12 +46,8 @@ let drinkSeed = [
         category: "Moody",
         ingridients:"1 oz scotch whiskey, 1 oz Drambuie",
         instructions: "Pour ingredients over ice and stir. Garnish with lemon a lemon twist and enjoy!"
-      }
-    ]
   },
   {
-    drinktype: [
-      {
         alcoholic: "True",
         name: "Gin and tonic",
         img: "",
@@ -72,12 +55,8 @@ let drinkSeed = [
         category: "Moody",
         ingridients:"2 oz gin, 5 iz if tonic water",
         instructions: "Pour ingredients into a glass full of ice and stir. Stir well and garnish with a lime wedge"
-      }
-    ]
   },
   {
-    drinktype: [
-      {
         alcoholic: "False",
         name: "Apple Cider Vinegar",
         img: "",
@@ -85,12 +64,9 @@ let drinkSeed = [
         category: "Moody",
         ingridients:"",
         instructions: ""
-      }
-    ]
   },
   {
-    drinktype: [
-      {
+
         alcoholic: "True",
         name: "Mimosa",
         img: "",
@@ -98,12 +74,8 @@ let drinkSeed = [
         category: "Tired",
         ingridients:"2 oz, orange juice, champagne or sparkling wine",
         instructions: "Pour cold oj into glass and fill with champagne and stir gently"
-      }
-    ]
   },
   {
-    drinktype: [
-      {
         alcoholic: "True",
         name: "Mintini",
         img: "",
@@ -111,12 +83,8 @@ let drinkSeed = [
         category: "Tired",
         ingridients:"2 oz gin or vodka, 1 oz white creme de menthe",
         instructions: "Stir ingredients with ice in glass. Garnish with a sprig of fresh mint and enjoy!"
-      }
-    ]
   },
   {
-    drinktype: [
-      {
         alcoholic: "False",
         name: "Chamomile Tea",
         img: "",
@@ -124,12 +92,8 @@ let drinkSeed = [
         category: "Tired",
         ingridients:"",
         instructions: ""
-      }
-    ]
   },
   {
-    drinktype: [
-      {
         alcoholic: "True",
         name: "The European",
         img: "",
@@ -137,12 +101,8 @@ let drinkSeed = [
         category: "Grumpy",
         ingridients:"2 ½ oz vodka, ½ oz of chambord",
         instructions: "Stir ingredients with ice in glass"
-      }
-    ]
   },
   {
-    drinktype: [
-      {
         alcoholic: "True",
         name: "Cuba Libre",
         img: "",
@@ -150,12 +110,8 @@ let drinkSeed = [
         category: "Grumpy",
         ingridients:"2 oz of rum, cola, wedge of lime",
         instructions: "Squeeze lime juice into glass and put in the rind. Add rumm and fill with cola and ice. Stir."
-      }
-    ]
   },
   {
-    drinktype: [
-      {
         alcoholic: "False",
         name: "Lemonade",
         img: "",
@@ -163,12 +119,8 @@ let drinkSeed = [
         category: "Grumpy",
         ingridients:"",
         instructions: ""
-      }
-    ]
   },
   {
-    drinktype: [
-      {
         alcoholic: "True",
         name: "Godfather",
         img: "",
@@ -176,12 +128,8 @@ let drinkSeed = [
         category: "Nostalgic",
         ingridients:"1 ½ oz bourbon, ¾ amaretto",
         instructions: "Mix together and pour over ice into glass. Garnish with twist of lemon"
-      }
-    ]
   },
   {
-    drinktype: [
-      {
         alcoholic: "True",
         name: "Old-Fashioned",
         img: "",
@@ -189,12 +137,8 @@ let drinkSeed = [
         category: "Nostalgic",
         ingridients:"1 cube of sugar, 1 dash marishcino cherry, orange slice, 2 oz blended whiskey, 1 tbspoon water",
         instructions: "Put sugar bitters and 1 tbsp water in the bottom of a glass and mix well. Crush cherries and orange slice into sugar mixture. Add whiskye and stir. Fill glass with ice and top off with soda water"
-      }
-    ]
   },
   {
-    drinktype: [
-      {
         alcoholic: "False",
         name: "Capri Sun",
         img: "",
@@ -202,12 +146,8 @@ let drinkSeed = [
         category: "Nostalgic",
         ingridients:"",
         instructions: ""
-      }
-    ]
   },
   {
-    drinktype: [
-      {
         alcoholic: "True",
         name: "Chocolate Martini",
         img: "",
@@ -215,12 +155,8 @@ let drinkSeed = [
         category: "Romantic",
         ingridients:"2 ½ oz vanilla flavored vodka, ½ oz of chocolate liqueur",
         instructions: "Mix ingredients with ice and strain into a chilled glass. Garnish with chocolate covered expresso bean and enjoy"
-      }
-    ]
   },
   {
-    drinktype: [
-      {
         alcoholic: "True",
         name: "Glass of wine or champagne",
         img: "",
@@ -228,12 +164,8 @@ let drinkSeed = [
         category: "Romantic",
         ingridients:"",
         instructions: ""
-      }
-    ]
   },
   {
-    drinktype: [
-      {
         alcoholic: "False",
         name: "Rose Lemon Spritzer",
         img: "",
@@ -241,12 +173,8 @@ let drinkSeed = [
         category: "Romantic",
         ingridients:"",
         instructions: ""
-      }
-    ]
   },
   {
-    drinktype: [
-      {
         alcoholic: "True",
         name: "Spicy Margarita",
         img: "",
@@ -254,12 +182,8 @@ let drinkSeed = [
         category: "Fun",
         ingridients:"Salt, Ice, 2 oz silver tequila, 3 tbsp fresh squeezed lime juice, 1 tablespoon orange juice, 1 ½ tsp light agave nectar, ½ jalapeno pepper, lime wedge",
         instructions: "Rim glass with salt. Fill glass with ice and set aside. Fill small shaker with additional ice add tequila lime juice, orange juice, agave, and jalapeno slices. Shake and strain into rimmed glass. Garnish with lime wedge and enjoy!"
-      }
-    ]
   },
   {
-    drinktype: [
-      {
         alcoholic: "True",
         name: "Zombie",
         img: "",
@@ -267,12 +191,8 @@ let drinkSeed = [
         category: "Fun",
         ingridients:"1 ½ oz dark rum, ¾ oz jamican rum, ¾ oz light rum, ¾ oz pineapple juice, 1 oz lime juice, ½ oz 151 proof rum",
         instructions: "Mix first five ingredients together with ice. Strain over ice and float the 151 proof and garnish with cherry and enjoy!"
-      }
-    ]
   },
   {
-    drinktype: [
-      {
         alcoholic: "False",
         name: "Virgin Michelada",
         img: "",
@@ -280,12 +200,8 @@ let drinkSeed = [
         category: "Fun",
         ingridients:"",
         instructions: ""
-      }
-    ]
   },
   {
-    drinktype: [
-      {
         alcoholic: "True",
         name: "Silver bullet",
         img: "",
@@ -293,12 +209,8 @@ let drinkSeed = [
         category: "Active",
         ingridients:"dash of scotch, 3 oz of vodka",
         instructions: "Pour scotch into cocktail glass and swirl around. Empty out scotch and add vodka. Garnish with a lemon twist and enjoy!"
-      }
-    ]
   },
   {
-    drinktype: [
-      {
         alcoholic: "True",
         name: "Frozen Margarita",
         img: "",
@@ -306,12 +218,8 @@ let drinkSeed = [
         category: "Active",
         ingridients:"2 tsp salt, 1 lime wedge, 3 oz tequila, 1 oz triple sec, 2 oz lime juice, 1 cup crushed ice",
         instructions: "Rub glass with lime and place salt around edge of glass. Put remaining ingredients in a blender and blend well at high speed. Pour into glass and garnish with lime and enjoy!"
-      }
-    ]
   },
   {
-    drinktype: [
-      {
         alcoholic: "False",
         name: "Anti oxidant blast: Beet Strawberry & Blueberry",
         img: "",
@@ -319,12 +227,8 @@ let drinkSeed = [
         category: "Active",
         ingridients:"",
         instructions: ""
-      }
-    ]
   },
   {
-    drinktype: [
-      {
         alcoholic: "True",
         name: "Sidecar",
         img: "",
@@ -332,12 +236,8 @@ let drinkSeed = [
         category: "Motivated",
         ingridients:"1 ½ oz brandy, ¾ oz orange liqueur, ¾ oz sweet and sour",
         instructions: "Mix ingredients with ice. Strain into a chilled glass and garnish with a twist of lemon and enjoy!"
-      }
-    ]
   },
   {
-    drinktype: [
-      {
         alcoholic: "True",
         name: "Mint Julep",
         img: "",
@@ -345,12 +245,9 @@ let drinkSeed = [
         category: "Motivated",
         ingridients:"4 fresh mint sprigs, 1 tsp powdered sugar, 2 tsp water, 2 oz bourbon",
         instructions: "Muddle mint sugar and water in bottom of glass Fill glass with ice and add bourbon. Pack the glass with more ice and garnish with a mint sprig"
-      }
-    ]
+
   },
   {
-    drinktype: [
-      {
         alcoholic: "False",
         name: "Iced Americano",
         img: "",
@@ -358,12 +255,10 @@ let drinkSeed = [
         category: "Motivated",
         ingridients:"",
         instructions: ""
-      }
-    ]
+
   },
   {
-    drinktype: [
-      {
+
         alcoholic: "True",
         name: "Gimlet",
         img: "",
@@ -371,12 +266,8 @@ let drinkSeed = [
         category: "Lazy",
         ingridients:"2 oz gin, 1 oz lime juice, 1 tbsp sugar syrup",
         instructions: "Pour gin, lime juice and sugar over ice in a glass. Stir well and pour into another glass. Garnish with a lime wedge"
-      }
-    ]
   },
   {
-    drinktype: [
-      {
         alcoholic: "True",
         name: "Irish Coffee",
         img: "",
@@ -384,12 +275,8 @@ let drinkSeed = [
         category: "Lazy",
         ingridients:"1 ½ oz of irish whiskey,1 tbsp sugar syrup, 6 oz of hot coffee, heavy cream",
         instructions: "Combine whiskey, sugar and coffee into a mug. Float cold cream on top and serve"
-      }
-    ]
   },
   {
-    drinktype: [
-      {
         alcoholic: "False",
         name: "Hot Cocoa",
         img: "",
@@ -397,8 +284,6 @@ let drinkSeed = [
         category: "Lazy",
         ingridients:"",
         instructions: ""
-      }
-    ]
   }
 ];
 
