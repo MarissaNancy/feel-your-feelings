@@ -3,13 +3,14 @@ const db = require("../models");
 module.exports = {
 findAll: function(req, res){
     db.Song
-    .find(req, body)
+    .find(req.query)
     .then(dbModel => res.json(dbModel))
     .catch(err => res.status(400).json(err)); 
 },
 findByCategory: function(req, res){
+    console.log(req.params)
     db.Song
-    .find(req.param.category)
+    .find({category: req.params.category})
     .then(dbModel => res.json(dbModel))
     .catch(err => res.status(400).json(err)); 
 },
