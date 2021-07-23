@@ -10,13 +10,13 @@ function Moods({type}) {
     const [drinks, setDrinks] = useState([]);
     const [songs, setSongs] = useState([]);
 
-    useEffect (() => {
-        api.getSongs
-        api.getDrinks
+    // useEffect (() => {
+    //     api.getSongs
+    //     api.getDrinks
 
 
 
-    },[])
+    // },[])
 
 
     return (

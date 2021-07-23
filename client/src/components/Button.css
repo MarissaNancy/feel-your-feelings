@@ -22,7 +22,6 @@
     border-radius: 100px;
     padding: 10px 20px;
     border: 1px solid var(--primary);
-    margin-right: auto;
     transition: all 0.3s ease-out;
 }
 

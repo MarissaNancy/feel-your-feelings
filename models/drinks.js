@@ -43,8 +43,6 @@ const DrinkSchema = new Schema({
         trim: true 
     }
 
-    }],    
-
 })
 
 const Drink = mongoose.model("Drink", DrinkSchema);
