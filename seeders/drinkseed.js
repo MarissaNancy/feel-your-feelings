@@ -1,7 +1,9 @@
 let mongoose = require("mongoose");
 let db = require("../models");
+const MONGO_URI = require ("../config/keys").mongoURI;
 // edit end of next line 
-mongoose.connect("mongodb://localhost/", {
+mongoose.connect(MONGO_URI || "mongodb://localhost/", {
+  useUnifiedTopology: true,
   useNewUrlParser: true,
   useFindAndModify: false
 });
@@ -401,8 +403,8 @@ let drinkSeed = [
 ];
 
 
-db.Drinks.deleteMany({})
-  .then(() => db.Drinks.collection.insertMany(drinkSeed))
+db.Drink.deleteMany({})
+  .then(() => db.Drink.collection.insertMany(drinkSeed))
   .then(data => {
     console.log(data.result.n + " seeds inserted!");
     process.exit(0);
