@@ -3,6 +3,7 @@ let db = require("../models");
 const MONGO_URI = require("../config/keys").mongoURI;
 // edit end of next line 
 mongoose.connect(MONGO_URI || "mongodb://localhost/feelings", {
+
   useUnifiedTopology: true,
   useNewUrlParser: true,
   useFindAndModify: false
