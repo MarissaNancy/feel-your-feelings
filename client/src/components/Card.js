@@ -15,7 +15,6 @@ function Card() {
                         <Button className="btns" buttonStyle="remove--btn" buttonSize="btn--large">Remove</Button>
                     </div>
                 </article>
-                
             </section>
             
     )
