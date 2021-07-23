@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './MoodsPage.css';
+import { Link } from 'react-router-dom';
 import API from '../utils/API';
 
 
@@ -10,13 +11,13 @@ function Moods({type}) {
     const [drinks, setDrinks] = useState([]);
     const [songs, setSongs] = useState([]);
 
-    useEffect (() => {
-        api.getSongs
-        api.getDrinks
+    // useEffect (() => {
+    //     api.getSongs
+    //     api.getDrinks
 
 
 
-    },[])
+    // },[])
 
 
     return (
@@ -36,8 +37,11 @@ function Moods({type}) {
                     </div>
                 </article>
                 <div className="favorite-btn">
+                <Link to='/dashboard' className="back-btn">
+                <Button className="btns" buttonStyle="back--btn" buttonSize="btn--large">Go Back</Button>
+                </Link>
                 <Button className="btns" buttonStyle="favorite--btn" buttonSize="btn--large">Add to Favorites</Button>
-                </div>      
+                </div>    
             </section>
             
     )
