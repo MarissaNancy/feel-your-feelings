@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import '../MoodsPage/style.css';
 import { Link } from 'react-router-dom';
 import API from '../../utils/API';
-
+import { SongsCard } from '../SongsCard/SongsCard.js';
 
 
 import { Button } from '../Button';
@@ -46,6 +46,7 @@ function Moods({ type }) {
                             </ul>
                         )
                     })}
+                    <SongsCard />
                 </div>
             </article>
             <article className="relative rounded-lg shadow-xl p-20">
@@ -53,14 +54,6 @@ function Moods({ type }) {
                 </h3>
                 <div>
                     <h1>Drinks{type}</h1>
-                    {drinks(drinks => {
-                        return (
-                            <ul>
-                                <li drinks>
-                                </li>
-                            </ul>
-                        )
-                    })}
                 </div>
             </article>
             <div className="favorite-btn">
