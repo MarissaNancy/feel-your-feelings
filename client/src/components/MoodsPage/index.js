@@ -47,8 +47,8 @@ function Moods({ type }) {
             <article className="relative rounded-lg shadow-xl p-20">
                 <h3 className="text-white text-10xl mb-3">
                 </h3>
-                <div>
-                    <h1>Playlist{type}</h1>
+                <div className="card-contents">
+                    <h1>Playlist {type}</h1>
                     {/* {songs.map(song => {
                         return (
                             <ul>
@@ -65,7 +65,7 @@ function Moods({ type }) {
                 <h3 className="text-white text-10xl mb-3">
                 </h3>
                 <div>
-                    <h1>Drinks{type}</h1>
+                    <h1>Drinks {type}</h1>
                     {drinks.map(drink => {
                         return (
                             <ul>
