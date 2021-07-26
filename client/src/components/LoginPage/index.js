@@ -6,7 +6,7 @@ import { useHistory } from "react-router-dom";
 
 
 
-function LoginPage() {
+function LoginPage({toggle}) {
     const [login, setLogin] = useState({})
     const [signup, setSignup] = useState({})
 
@@ -33,6 +33,7 @@ function handleLoginFormSubmit(event){
      event.preventDefault();
     API.login(login)
     .then(res => {
+        toggle ()
         console.log(res)
         history.push("/dashboard");
     })
@@ -43,11 +44,11 @@ function handleSignupFormSubmit(event){
     event.preventDefault();
     API.signup(signup)
     .then(res => {
+        toggle ()
         console.log(res)
         history.push("/dashboard");
     })
 }
-
     return (
         <form className="login-form">
             <label className="login-label">
@@ -60,9 +61,7 @@ function handleSignupFormSubmit(event){
                             Sign Up
                         </Link> */}
             </label>
-
             <image className="logo"></image>
-
             <label className="signup-label">
                 <h1>Name:</h1>
                 <input
@@ -93,11 +92,8 @@ function handleSignupFormSubmit(event){
                     placeholder="confirm password" 
                     onChange={handleSignupInputChange} />
                 <Button className="signup-btn" type="submit" buttonStyle="signup--btn" buttonSize="btn--large" onClick={handleSignupFormSubmit}>Sign Up</Button>
-
             </label>
-
         </form>
     )
 }
-
 export default LoginPage

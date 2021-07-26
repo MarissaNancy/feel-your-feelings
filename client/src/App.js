@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from './components/NavBar/index';
 import Login from './components/pages/Login';
@@ -13,12 +13,16 @@ import Moods from "./components/pages/Moods"
 
 
 export default function App() {
+  const [ login, setLogin ] = useState(false)
+  function toggle () {
+    setLogin(!login)
+  }
   return (
     <>
       <Router>
-        <Navbar />
+        <Navbar login={login} toggle={toggle}/>
         <Switch>
-          <Route path="/" exact component={Login}/>
+          <Route path="/" exact component={()=><Login toggle={toggle}/>} />
         </Switch>
         {/* <Switch>
           <Route path="/login" exact component={Login}/>
