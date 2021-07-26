@@ -1,13 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Navbar from './components/Navbar';
-import Home from './components/pages/Home';
+import Navbar from './components/NavBar/index';
 import Login from './components/pages/Login';
-import Signup from './components/pages/Signup';
+import Signup from './components/SignupPage/index';
 import { BounceLoader, Barloader, BeatLoader } from "react-spinners";
 import "react-datepicker/dist/react-datepicker.css";
-import Profile from './components/pages/Profile';
-import './App.css';
+import Profile from './components/ProfilePage/index';
+import '../src/App.css';
 import Dashboard from "./components/pages/Dashboard";
 import Moods from "./components/pages/Moods"
 

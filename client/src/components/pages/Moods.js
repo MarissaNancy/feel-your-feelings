@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../App.css';
-import MoodsPage from '../MoodsPage';
+import MoodsPage from '../MoodsPage/index';
 import { Link, useParams } from "react-router-dom";
 
 function Moods() {

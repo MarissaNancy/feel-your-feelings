@@ -1,6 +1,6 @@
 import React from 'react'
-import "./LoginPage.css";
-import { Button } from './Button';
+import "../LoginPage/style.css";
+import { Button } from '../Button/index';
 
 
 

@@ -1,12 +1,17 @@
 import React, { useState, useEffect } from 'react'
-import './MoodsPage.css';
+import '../MoodsPage/style.css';
 import { Link } from 'react-router-dom';
+<<<<<<< HEAD:client/src/components/MoodsPage.js
 import API from '../utils/API';
 // import DrinksData from "../../seeders/drinkseed";
 // import SongData from "../../seeders/songseed";
+=======
+import API from '../../utils/API';
+import { SongsCard } from '../SongsCard/SongsCard.js';
 
+>>>>>>> main:client/src/components/MoodsPage/index.js
 
-import { Button } from './Button';
+import { Button } from '../Button';
 
 function Moods({ type }) {
     const [drinks, setDrinks] = useState([]);
@@ -46,12 +51,12 @@ function Moods({ type }) {
                     {songs.map(songs => {
                         return (
                             <ul>
-                                <li key={songs.category}>
-                                    {getSongs()}
+                                <li songs>
                                 </li>
                             </ul>
                         )
                     })}
+                    <SongsCard />
                 </div>
             </article>
             <article className="relative rounded-lg shadow-xl p-20">
@@ -59,15 +64,6 @@ function Moods({ type }) {
                 </h3>
                 <div>
                     <h1>Drinks{type}</h1>
-                    {drinks.map(drinks => {
-                        return (
-                            <ul>
-                                <li key={drinks.category}>
-                                    {getDrinks()}
-                                </li>
-                            </ul>
-                        )
-                    })}
                 </div>
             </article>
             <div className="favorite-btn">

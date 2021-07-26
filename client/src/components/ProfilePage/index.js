@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import "./ProfilePage.css";
+import "../ProfilePage/style.css";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import Card from "./Card";
-import { Button } from './Button';
+import Card from "../Card";
+import { Button } from '../Button/index';
 
 
 function ProfilePage() {

@@ -1,6 +1,6 @@
 import React from 'react'
-import "./Card.css";
-import { Button } from './Button';
+import "../Card/style.css";
+import { Button } from '../Button/index';
 
 function Card() {
     return (
