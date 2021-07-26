@@ -9,19 +9,19 @@ const SongSchema = new Schema({
         required: "Song name required"
     },
 
-    artist: {
+    author: {
         type: String,
         trim: true,
         required: "Artist name required"
     },
 
-    url: {
+    audio: {
         type: String,
         trim: true,
         required: "URL required"
     },
 
-    thumbnail: {
+    img: {
         type: String,
     },
 

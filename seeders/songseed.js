@@ -12,875 +12,875 @@ mongoose.connect(MONGO_URI || "mongodb://localhost/feelings", {
 let songSeed = [
   {
         name: "Happy",
-        artist: "Pharrell Williams",
-        url: "",
-        thumbnail: "",
+        author: "Pharrell Williams",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Happy",
   },
   {
         name: "I Wanna Dance with Somebody (Who Love Me)",
-        artist: "Whitney Houston",
-        url: "",
-        thumbnail: "",
+        author: "Whitney Houston",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Happy",
   },
   {
         name: "Tenderness",
-        artist: "General Public",
-        url: "",
-        thumbnail: "",
+        author: "General Public",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Happy",
   },
   {
 
         name: "Valerie",
-        artist: "Amy Winehouse",
-        url: "",
-        thumbnail: "",
+        author: "Amy Winehouse",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Happy",
 
   },
   {
         name: "Uptown Funk",
-        artist: "Mark Ronson ft. Bruno Mars",
-        url: "",
-        thumbnail: "",
+        author: "Mark Ronson ft. Bruno Mars",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Happy",
   },
   {
 
         name: "Lovely Day",
-        artist: "Bill Withers",
-        url: "",
-        thumbnail: "",
+        author: "Bill Withers",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Happy",
 
   },
   {
 
         name: "Can’t Stop the Feeling!",
-        artist: "Justin Timberlake",
-        url: "",
-        thumbnail: "",
+        author: "Justin Timberlake",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Happy",
 
   },
   {
 
         name: "Amber",
-        artist: "311",
-        url: "",
-        thumbnail: "",
+        author: "311",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Happy",
 
   },
   {
 
         name: "Peaches",
-        artist: "Justin Biebar ft. Daniel Caesar",
-        url: "",
-        thumbnail: "",
+        author: "Justin Biebar ft. Daniel Caesar",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Happy",
 
   },
   {
 
         name: "Girl Just Want To Have Fun",
-        artist: "Cyndi Lauper",
-        url: "",
-        thumbnail: "",
+        author: "Cyndi Lauper",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Happy",
 
   },
   {
 
         name: "Sunset Lover",
-        artist: "Petit Biscuit",
-        url: "",
-        thumbnail: "",
+        author: "Petit Biscuit",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Moody",
 
   },
   {
  
         name: "Fix You",
-        artist: "Coldplay",
-        url: "",
-        thumbnail: "",
+        author: "Coldplay",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Moody",
 
   },
   {
 
         name: "Lonely",
-        artist: "Justin Bb & Benny Blano",
-        url: "",
-        thumbnail: "",
+        author: "Justin Bb & Benny Blano",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Moody",
 
   },
   {
 
         name: "Give me Love",
-        artist: "Ed Sheeran",
-        url: "",
-        thumbnail: "",
+        author: "Ed Sheeran",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Moody",
 
   },
   {
 
         name: "Before You Go",
-        artist: "Lewis Capaldi",
-        url: "",
-        thumbnail: "",
+        author: "Lewis Capaldi",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Moody",
 
   },
   {
  
         name: "Wherever You Are",
-        artist: "Kodaline",
-        url: "",
-        thumbnail: "",
+        author: "Kodaline",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Moody",
 
   },
   {
  
         name: "Be Alright",
-        artist: "Dean Lewis",
-        url: "",
-        thumbnail: "",
+        author: "Dean Lewis",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Moody",
  
   },
   {
  
         name: "Are You Happy?",
-        artist: "SHY Martin",
-        url: "",
-        thumbnail: "",
+        author: "SHY Martin",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Moody",
  
   },
   {
 
         name: "People Help The People",
-        artist: "Birdy",
-        url: "",
-        thumbnail: "",
+        author: "Birdy",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Moody",
 
   },
   {
 
         name: "Lost Boy",
-        artist: "Ruth B",
-        url: "",
-        thumbnail: "",
+        author: "Ruth B",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Moody",
  
   },
   {
 
         name: "Holocene",
-        artist: "Bon Iver",
-        url: "",
-        thumbnail: "",
+        author: "Bon Iver",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Tired",
 
   },
   {
 
         name: "Somewhere Only We Know",
-        artist: "Keane",
-        url: "",
-        thumbnail: "",
+        author: "Keane",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Tired",
 
   },
   {
 
         name: "Wake Me Up When September Ends",
-        artist: "Greenday",
-        url: "",
-        thumbnail: "",
+        author: "Greenday",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Tired",
 
   },
   {
 
         name: "Superman (It’s not Easy)",
-        artist: "Five for Fighting",
-        url: "",
-        thumbnail: "",
+        author: "Five for Fighting",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Tired",
 
   },
   {
 
         name: "One Last Breath",
-        artist: "Creed",
-        url: "",
-        thumbnail: "",
+        author: "Creed",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Tired",
 
   },
   {
 
         name: "Chasing Cars",
-        artist: "Snow Patrol",
-        url: "",
-        thumbnail: "",
+        author: "Snow Patrol",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Tired",
 
   },
   {
 
         name: "Shallow",
-        artist: "Lady GaGa ft. Bradley Cooper",
-        url: "",
-        thumbnail: "",
+        author: "Lady GaGa ft. Bradley Cooper",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Tired",
  
   },
   {
 
         name: "Grow As We Go",
-        artist: "Ben Platt",
-        url: "",
-        thumbnail: "",
+        author: "Ben Platt",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Tired",
 
   },
   {
 
         name: "Demons",
-        artist: "Jacob Lee",
-        url: "",
-        thumbnail: "",
+        author: "Jacob Lee",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Tired",
 
   },
   {
 
         name: "Keeping me Alive",
-        artist: "Jonathan Roy",
-        url: "",
-        thumbnail: "",
+        author: "Jonathan Roy",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Tired",
  
   },
   {
 
         name: "Gives you hell",
-        artist: "All American Rejects",
-        url: "",
-        thumbnail: "",
+        author: "All American Rejects",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Grumpy",
  
   },
   {
  
         name: "Don’t Worry Be Happy",
-        artist: "Bobby McFerrin",
-        url: "",
-        thumbnail: "",
+        author: "Bobby McFerrin",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Grumpy",
 
   },
   {
 
         name: "Crazy",
-        artist: "Gnarls Barkley",
-        url: "",
-        thumbnail: "",
+        author: "Gnarls Barkley",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Grumpy",
  
   },
   {
  
         name: "Sitting, Waiting, Wishing",
-        artist: "Jack Johnson",
-        url: "",
-        thumbnail: "",
+        author: "Jack Johnson",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Grumpy",
 
   },
   {
  
         name: "We are never getting back together",
-        artist: "Taylor Swift",
-        url: "",
-        thumbnail: "",
+        author: "Taylor Swift",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Grumpy",
  
   },
   {
 
         name: "So What",
-        artist: "Pink",
-        url: "",
-        thumbnail: "",
+        author: "Pink",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Grumpy",
 
   },
   {
 
         name: "Truth Hurts",
-        artist: "Lizzo",
-        url: "",
-        thumbnail: "",
+        author: "Lizzo",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Grumpy",
 
   },
   {
 
         name: "Bad Day",
-        artist: "Daniel Powder",
-        url: "",
-        thumbnail: "",
+        author: "Daniel Powder",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Grumpy",
 
   },
   {
   
         name: "You outta know",
-        artist: "Alanis Morisette",
-        url: "",
-        thumbnail: "",
+        author: "Alanis Morisette",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Grumpy",
 
   },
   {
  
         name: "Live and Let Die",
-        artist: "Guns ‘N’ Roses",
-        url: "",
-        thumbnail: "",
+        author: "Guns ‘N’ Roses",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Grumpy",
 
   },
   {
   
         name: "Quite Miss Home",
-        artist: "James Arthur",
-        url: "",
-        thumbnail: "",
+        author: "James Arthur",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Nostalgic",
 
   },
   {
 
         name: "If This Is The Last Time",
-        artist: "LANY",
-        url: "",
-        thumbnail: "",
+        author: "LANY",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Nostalgic",
 
   },
   {
 
         name: "Hey Jude",
-        artist: "The Beatles",
-        url: "",
-        thumbnail: "",
+        author: "The Beatles",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Nostalgic",
 
   },
   {
 
         name: "Take it easy",
-        artist: "The Eagles",
-        url: "",
-        thumbnail: "",
+        author: "The Eagles",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Nostalgic",
  
   },
   {
 
         name: "Have You Ever Seen the Rain",
-        artist: "Creedence Clearwater",
-        url: "",
-        thumbnail: "",
+        author: "Creedence Clearwater",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Nostalgic",
 
   },
   {
  
         name: "Tennessee Whiskey",
-        artist: "Chris Stapleton",
-        url: "",
-        thumbnail: "",
+        author: "Chris Stapleton",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Nostalgic",
  
   },
   {
 
         name: "Stop this train",
-        artist: "John Mayer",
-        url: "",
-        thumbnail: "",
+        author: "John Mayer",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Nostalgic",
 
   },
   {
 
         name: "Drops of Jupiter",
-        artist: "Train",
-        url: "",
-        thumbnail: "",
+        author: "Train",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Nostalgic",
 
   },
   {
 
         name: "Fast Cars",
-        artist: "Tracy Chapman",
-        url: "",
-        thumbnail: "",
+        author: "Tracy Chapman",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Nostalgic",
 
   },
   {
   
         name: "Best Part",
-        artist: "Daniel Cesar",
-        url: "",
-        thumbnail: "",
+        author: "Daniel Cesar",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Romantic",
 
   },
   {
   
         name: "Let’s Stay Together",
-        artist: "Al Green",
-        url: "",
-        thumbnail: "",
+        author: "Al Green",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Romantic",
  
   },
   {
  
         name: "Thinking Out Loud",
-        artist: "Ed Sheeran",
-        url: "",
-        thumbnail: "",
+        author: "Ed Sheeran",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Romantic",
   
   },
   {
  
         name: "Yellow",
-        artist: "Coldplay",
-        url: "",
-        thumbnail: "",
+        author: "Coldplay",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Romantic",
   
   },
   {
   
         name: "Your Song",
-        artist: "Elton John",
-        url: "",
-        thumbnail: "",
-        category: "",
+        author: "Elton John",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
+        category: "https://www.bensound.com/bensound-img/buddy.jpg",
  
   },
   {
   
         name: "At Last",
-        artist: "Etta James",
-        url: "",
-        thumbnail: "",
+        author: "Etta James",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Romantic",
  
   },
   {
  
         name: "Till there was you",
-        artist: "The Beatles",
-        url: "",
-        thumbnail: "",
+        author: "The Beatles",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Romantic",
 
   },
   {
   
         name: "If I ain’t Got You",
-        artist: "Alicia Keys",
-        url: "",
-        thumbnail: "",
+        author: "Alicia Keys",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Romantic",
 
   },
   {
  
         name: "Always and Forever",
-        artist: "Heatwave",
-        url: "",
-        thumbnail: "",
+        author: "Heatwave",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Romantic",
  
   },
   {
 
         name: "Every Breath You Take",
-        artist: "The Police",
-        url: "",
-        thumbnail: "",
+        author: "The Police",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Romantic",
  
   },
   {
   
         name: "Sunday’s Best",
-        artist: "Surfaces",
-        url: "",
-        thumbnail: "",
+        author: "Surfaces",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Fun",
  
   },
   {
   
         name: "Blinding Lights",
-        artist: "The Weeknd",
-        url: "",
-        thumbnail: "",
+        author: "The Weeknd",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Fun",
   
   },
   {
   
         name: "Electric Feel",
-        artist: "MGMT",
-        url: "",
-        thumbnail: "",
+        author: "MGMT",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Fun",
 
   },
   {
  
         name: "Heartbreaker",
-        artist: "Mariah Carey",
-        url: "",
-        thumbnail: "",
+        author: "Mariah Carey",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Fun",
   
   },
   {
  
         name: "Love Like This",
-        artist: "Faith Evans",
-        url: "",
-        thumbnail: "",
+        author: "Faith Evans",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Fun",
  
   },
   {
   
         name: "Walking On a Dream",
-        artist: "Empire of the Sun",
-        url: "",
-        thumbnail: "",
+        author: "Empire of the Sun",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Fun",
 
   },
   {
   
         name: "You Belong with Me",
-        artist: "Taylor Swift",
-        url: "",
-        thumbnail: "",
+        author: "Taylor Swift",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Fun",
 
   },
   {
  
         name: "Hot and Cold",
-        artist: "Katy Perry",
-        url: "",
-        thumbnail: "",
+        author: "Katy Perry",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Fun",
  
   },
   {
  
         name: "Latch",
-        artist: "Disclosure Sam Smith",
-        url: "",
-        thumbnail: "",
+        author: "Disclosure Sam Smith",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Fun",
 
   },
   {
 
         name: "The Spins",
-        artist: "Mac Miller",
-        url: "",
-        thumbnail: "",
+        author: "Mac Miller",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Fun",
  
   },
   {
 
         name: "Stronger",
-        artist: "Kanye West",
-        url: "",
-        thumbnail: "",
+        author: "Kanye West",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Active",
 
   },
   {
  
         name: "End of Time",
-        artist: "Beyonce",
-        url: "",
-        thumbnail: "",
+        author: "Beyonce",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Active",
  
   },
   {
  
         name: "Get Right",
-        artist: "Jennifer Lopez",
-        url: "",
-        thumbnail: "",
+        author: "Jennifer Lopez",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Active",
   
   },
   {
   
         name: "Heartless",
-        artist: "The Weeknd",
-        url: "",
-        thumbnail: "",
+        author: "The Weeknd",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Active",
  
   },
   {
   
         name: "Suit and Tie",
-        artist: "Justin Timberlake",
-        url: "",
-        thumbnail: "",
+        author: "Justin Timberlake",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Active",
 
   },
   {
   
         name: "This is what you came for",
-        artist: "Rihanna",
-        url: "",
-        thumbnail: "",
+        author: "Rihanna",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Active",
   
   },
   {
    
         name: "Don’t you worry child",
-        artist: "Sweedish House Mafia",
-        url: "",
-        thumbnail: "",
+        author: "Sweedish House Mafia",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Active",
  
   },
   {
    
         name: "Pursuit of Happiness",
-        artist: "Kid Cudi, Steve Aoki",
-        url: "",
-        thumbnail: "",
+        author: "Kid Cudi, Steve Aoki",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Active",
    
   },
   {
  
         name: "Just Dance",
-        artist: "Lady Gaga",
-        url: "",
-        thumbnail: "",
+        author: "Lady Gaga",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Active",
  
   },
   {
   
         name: "One Kiss",
-        artist: "Dua Lupa",
-        url: "",
-        thumbnail: "",
+        author: "Dua Lupa",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Active",
  
   },
   {
   
         name: "Thunderstruck",
-        artist: "AC/DC",
-        url: "",
-        thumbnail: "",
+        author: "AC/DC",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Motivated",
 
   },
   {
   
         name: "Lose Yourself",
-        artist: "Eminem",
-        url: "",
-        thumbnail: "",
+        author: "Eminem",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Motivated",
  
   },
   {
    
         name: "We Are the Champions",
-        artist: "Queen",
-        url: "",
-        thumbnail: "",
+        author: "Queen",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Motivated",
   
   },
   {
    
         name: "Eye of the Tiger",
-        artist: "Survivor",
-        url: "",
-        thumbnail: "",
+        author: "Survivor",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Motivated",
    
   },
   {
   
         name: "One More Time",
-        artist: "Daft Punk",
-        url: "",
-        thumbnail: "",
+        author: "Daft Punk",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Motivated",
  
   },
   {
   
         name: "Feel So Close",
-        artist: "Calvin Harris",
-        url: "",
-        thumbnail: "",
+        author: "Calvin Harris",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Motivated",
   
   },
   {
    
         name: "Strobe",
-        artist: "deadmau5",
-        url: "",
-        thumbnail: "",
+        author: "deadmau5",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Motivated",
   
   },
   {
    
         name: "Energy",
-        artist: "Disclosure",
-        url: "",
-        thumbnail: "",
+        author: "Disclosure",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Motivated",
   
   },
   {
    
         name: "Work Bitch",
-        artist: "Britney Spears",
-        url: "",
-        thumbnail: "",
+        author: "Britney Spears",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Motivated",
    
   },
   {
    
         name: "Sunday Morning",
-        artist: "Maroon 5",
-        url: "",
-        thumbnail: "",
+        author: "Maroon 5",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Lazy",
    
   },
   {
     
         name: "Slow Ride",
-        artist: "Foghat",
-        url: "",
-        thumbnail: "",
+        author: "Foghat",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Lazy",
    
   },
   {
    
         name: "Waiting On the World to Change",
-        artist: "John Mayer",
-        url: "",
-        thumbnail: "",
+        author: "John Mayer",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Lazy",
   
   },
   {
    
         name: "Human Nature",
-        artist: "Michael Jackson",
-        url: "",
-        thumbnail: "",
+        author: "Michael Jackson",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Lazy",
   
   },
   {
   
         name: "Is This Love",
-        artist: "Bob Marley",
-        url: "",
-        thumbnail: "",
+        author: "Bob Marley",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Lazy",
   
   },
   {
    
         name: "Somebody That I Used to Know",
-        artist: "Gotye",
-        url: "",
-        thumbnail: "",
+        author: "Gotye",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Lazy",
    
   },
   {
   
         name: "La Vie en rose",
-        artist: "Louis Armstrong",
-        url: "",
-        thumbnail: "",
+        author: "Louis Armstrong",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Lazy",
  
   },
   {
   
         name: "I’m so tired",
-        artist: "The Beatles",
-        url: "",
-        thumbnail: "",
+        author: "The Beatles",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Lazy",
 
   },
   {
   
         name: "Island in the Sun",
-        artist: "Weezer",
-        url: "",
-        thumbnail: "",
+        author: "Weezer",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Lazy",
  
   },
   {
    
         name: "This Modern Love",
-        artist: "Bloc Party",
-        url: "",
-        thumbnail: "",
+        author: "Bloc Party",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Lazy",
 
   },
