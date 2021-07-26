@@ -14,10 +14,6 @@ signup: function (userdata){
 login: function (userdata){
     return axios.post("/api/users/login", userdata);
 },
-<<<<<<< HEAD
-=======
-
->>>>>>> a001bd0243b3461b7484ad0d03f9ea0104c2b159
 getDrink: function(){
     return axios.get("/api/drinks");
 },
