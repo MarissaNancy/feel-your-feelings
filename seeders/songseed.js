@@ -13,21 +13,21 @@ let songSeed = [
   {
         name: "Happy",
         author: "Pharrell Williams",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/MarissaNancy/feel-your-feelings/blob/main/client/src/songs/Happy%20-%20Pharrell%20Williams%20(Lyrics).mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Happy",
   },
   {
         name: "I Wanna Dance with Somebody (Who Love Me)",
         author: "Whitney Houston",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/MarissaNancy/feel-your-feelings/blob/main/client/src/songs/Whitney%20Houston%20-%20I%20Wanna%20Dance%20With%20Somebody%20(Lyrics).mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Happy",
   },
   {
         name: "Tenderness",
         author: "General Public",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/MarissaNancy/feel-your-feelings/blob/main/client/src/songs/General%20Public%20-%20Tenderness%20%5BLYRICS%5D%20HQ.mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Happy",
   },
@@ -35,7 +35,7 @@ let songSeed = [
 
         name: "Valerie",
         author: "Amy Winehouse",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/MarissaNancy/feel-your-feelings/blob/main/client/src/songs/Amy%20Winehouse%20-%20Valerie.mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Happy",
 
@@ -43,7 +43,7 @@ let songSeed = [
   {
         name: "Uptown Funk",
         author: "Mark Ronson ft. Bruno Mars",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/MarissaNancy/feel-your-feelings/blob/main/client/src/songs/Mark%20Ronson%20-%20Uptown%20Funk%20(Lyrics)%20ft.%20Bruno%20Mars.mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Happy",
   },
@@ -51,7 +51,7 @@ let songSeed = [
 
         name: "Lovely Day",
         author: "Bill Withers",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/MarissaNancy/feel-your-feelings/blob/main/client/src/songs/Lovely%20Day%20RIP%20Bill%20Withers%20(Lyrics%20Video).mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Happy",
 
@@ -60,7 +60,7 @@ let songSeed = [
 
         name: "Can’t Stop the Feeling!",
         author: "Justin Timberlake",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/MarissaNancy/feel-your-feelings/blob/main/client/src/songs/CAN'T%20STOP%20THE%20FEELING!%20-%20Justin%20Timberlake%20(Lyrics).mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Happy",
 
@@ -69,7 +69,7 @@ let songSeed = [
 
         name: "Amber",
         author: "311",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/MarissaNancy/feel-your-feelings/blob/main/client/src/songs/Amber%20-%20311%20%5BLYRICS%5D.mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Happy",
 
@@ -78,7 +78,7 @@ let songSeed = [
 
         name: "Peaches",
         author: "Justin Biebar ft. Daniel Caesar",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/MarissaNancy/feel-your-feelings/blob/main/client/src/songs/Justin%20Bieber%20-%20Peaches%20(Lyrics)%20ft.%20Daniel%20Caesar,%20Giveon.mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Happy",
 
@@ -87,7 +87,7 @@ let songSeed = [
 
         name: "Girl Just Want To Have Fun",
         author: "Cyndi Lauper",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/MarissaNancy/feel-your-feelings/blob/main/client/src/songs/Cyndi%20Lauper%20-%20Girls%20Just%20Want%20To%20Have%20Fun%20(letra).mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Happy",
 
