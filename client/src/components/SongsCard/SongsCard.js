@@ -1,6 +1,6 @@
 
-import React, { useState, useEffect } from 'react'
-import './SongsCard.css'
+import React, { useState, useEffect } from 'react';
+import '../SongsCard/SongsCard.css';
 
 export class SongsCard extends React.Component {
     state = {
