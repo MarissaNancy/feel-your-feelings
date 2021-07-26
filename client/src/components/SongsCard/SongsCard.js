@@ -1,25 +1,30 @@
-
-import React, { useState, useEffect } from 'react'
+import React, { Component } from 'react'
+import API from '../../utils/API';
 import './SongsCard.css'
 
-export class SongsCard extends React.Component {
-    state = {
+export class SongsCard extends Component {
+  constructor (props) {
+    super (props)
+    
+    this.type=props.type[0].toUpperCase()+props.type.slice(1)
+    this.state = {
       index: 3,
       currentTime: '0:00',
-      musicList: [{name:'Nice piano and ukulele', author: 'Royalty', img: 'https://www.bensound.com/bensound-img/buddy.jpg', audio:'https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true', duration: '2:02'}, 
-        {name:'Gentle acoustic', author: 'Acoustic', img: 'https://www.bensound.com/bensound-img/sunny.jpg', audio:'https://www.bensound.com//bensound-music/bensound-sunny.mp3', duration: '2:20'},
-        {name:'Corporate motivational', author: 'Corporate', img: 'https://www.bensound.com/bensound-img/energy.jpg', audio:'https://www.bensound.com/bensound-music/bensound-energy.mp3', duration: '2:59'},
-        {name:'Slow cinematic', author: 'Royalty', img: 'https://www.bensound.com/bensound-img/slowmotion.jpg', audio:'https://www.bensound.com/bensound-music/bensound-slowmotion.mp3', duration: '3:26'}],
+      musicList: [],
       pause: false,
     };
+  }
+   
   
   
    componentDidMount() {
-     this.playerRef.addEventListener("timeupdate", this.timeUpdate, false);
-     this.playerRef.addEventListener("ended", this.nextSong, false);
-     this.timelineRef.addEventListener("click", this.changeCurrentTime, false);
-     this.timelineRef.addEventListener("mousemove", this.hoverTimeLine, false);
-     this.timelineRef.addEventListener("mouseout", this.resetTimeLine, false);
+      this.getSongs()
+
+    //  this.playerRef.addEventListener("timeupdate", this.timeUpdate, false);
+    //  this.playerRef.addEventListener("ended", this.nextSong, false);
+    //  this.timelineRef.addEventListener("click", this.changeCurrentTime, false);
+    //  this.timelineRef.addEventListener("mousemove", this.hoverTimeLine, false);
+    //  this.timelineRef.addEventListener("mouseout", this.resetTimeLine, false);
    }
   
     componentWillUnmount() {
@@ -29,7 +34,20 @@ export class SongsCard extends React.Component {
       this.timelineRef.removeEventListener("mousemove", this.hoverTimeLine);
       this.timelineRef.removeEventListener("mouseout", this.resetTimeLine);
     }
-  
+
+    getSongs() {
+      console.log(this.type)
+      API.getSongs(this.type)
+          .then(res => {
+              this.setState({musicList:res.data}, () => {
+                console.log(this.state.musicList)
+
+              })
+              console.log(res.data)
+          })
+          .catch(err => console.log(err));
+  };
+
   changeCurrentTime = (e) => {
     const duration = this.playerRef.duration;
     
@@ -152,8 +170,11 @@ export class SongsCard extends React.Component {
     render() {
       const { musicList, index, currentTime, pause } = this.state;
       const currentSong = musicList[index];
+      console.log(currentSong)
       return (
-        <div className="card">
+<div>
+        {(this.state.musicList && currentSong) ? (
+          <div className="card">
           <div className="current-song">
             <audio ref={ref => this.playerRef = ref}>
               <source src={ currentSong.audio } type="audio/ogg"/>
@@ -165,10 +186,6 @@ export class SongsCard extends React.Component {
             <span className="song-name">{ currentSong.name }</span>
             <span className="song-autor">{ currentSong.author }</span>
             
-            <div className="time">
-              <div className="current-time">{ currentTime }</div>
-              <div className="end-time">{ currentSong.duration }</div>
-            </div>
             
             <div ref={ref => this.timelineRef = ref} id="timeline">
               <div ref={ref => this.playheadRef = ref} id="playhead"></div>
@@ -211,6 +228,13 @@ export class SongsCard extends React.Component {
                           )}
           </div>
         </div>
+
+        ) : (
+
+          <div>songs loading</div>
+        )}
+</div>
+        
       )
     }
   }

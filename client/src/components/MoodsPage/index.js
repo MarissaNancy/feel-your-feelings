@@ -12,23 +12,34 @@ function Moods({ type }) {
     const [songs, setSongs] = useState([]);
 
     useEffect(() => {
-        function getDrinks() {
-            API.getDrinks()
-                .then(res =>
-                    setDrinks(res.data)
-                )
-                .catch(err => console.log(err));
-        };
+       type=type[0].toUpperCase()+type.slice(1)
 
-        function getSongs() {
-            API.getSongs()
-                .then(res =>
-                    setSongs(res.data)
-                )
-                .catch(err => console.log(err));
-        };
-
+        getDrinks()
+        getSongs()
     }, [])
+     
+    useEffect(() => {
+       
+
+        console.log(drinks);
+        console.log(songs);
+    }, [drinks, songs])
+
+    function getDrinks() {
+        API.getDrinks(type)
+            .then(res =>
+                setDrinks(res.data)
+            )
+            .catch(err => console.log(err));
+    };
+
+    function getSongs() {
+        API.getSongs(type)
+            .then(res =>
+                setSongs(res.data)
+            )
+            .catch(err => console.log(err));
+    };
 
 
     return (
@@ -38,15 +49,16 @@ function Moods({ type }) {
                 </h3>
                 <div>
                     <h1>Playlist{type}</h1>
-                    {songs.map(songs => {
+                    {/* {songs.map(song => {
                         return (
                             <ul>
-                                <li songs>
+                                <li >
+                                    {song.name}
                                 </li>
                             </ul>
                         )
-                    })}
-                    <SongsCard />
+                    })} */}
+                    <SongsCard type={type}/>
                 </div>
             </article>
             <article className="relative rounded-lg shadow-xl p-20">
@@ -54,6 +66,15 @@ function Moods({ type }) {
                 </h3>
                 <div>
                     <h1>Drinks{type}</h1>
+                    {drinks.map(drink => {
+                        return (
+                            <ul>
+                                <li >
+                                    {drink.name}
+                                </li>
+                            </ul>
+                        )
+                    })}
                 </div>
             </article>
             <div className="favorite-btn">
