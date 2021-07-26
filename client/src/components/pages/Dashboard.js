@@ -4,7 +4,7 @@ import HeroSection from '../Hero/index';
 
 function Dashboard () {
     return ( <div>
-            <HeroSection />,
+            <HeroSection />
             </div>
     )
 }
