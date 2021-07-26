@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react'
 import './MoodsPage.css';
 import { Link } from 'react-router-dom';
 import API from '../utils/API';
-
+// import DrinksData from "../../seeders/drinkseed";
+// import SongData from "../../seeders/songseed";
 
 
 import { Button } from './Button';
@@ -12,23 +13,27 @@ function Moods({ type }) {
     const [songs, setSongs] = useState([]);
 
     useEffect(() => {
-        function getDrinks() {
-            API.getDrinks()
-                .then(res =>
-                    setDrinks(res.data)
-                )
-                .catch(err => console.log(err));
-        };
+       
 
-        function getSongs() {
-            API.getSongs()
-                .then(res =>
-                    setSongs(res.data)
-                )
-                .catch(err => console.log(err));
-        };
-
+        getDrinks()
+        getSongs()
     }, [])
+     
+    function getDrinks() {
+        API.getDrinks(type)
+            .then(res =>
+                setDrinks(res.data)
+            )
+            .catch(err => console.log(err));
+    };
+
+    function getSongs() {
+        API.getSongs(type)
+            .then(res =>
+                setSongs(res.data)
+            )
+            .catch(err => console.log(err));
+    };
 
 
     return (

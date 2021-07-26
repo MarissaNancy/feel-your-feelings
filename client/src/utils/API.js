@@ -13,14 +13,14 @@ getDrink: function(){
     return axios.get("/api/drinks");
 },
 //Gets the drink with the given
-getDrink: function(category){
+getDrinks: function(category){
     return axios.get("/api/drinks/" + category);
 },
 getSong: function(){
     return axios.get("/api/songs");
 },
 //Gets the drink with the given
-getSong: function(category){
+getSongs: function(category){
     return axios.get("/api/songs/" + category);
 }
 };
