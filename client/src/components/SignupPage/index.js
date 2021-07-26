@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "./SignupPage.css";
-import { Button } from './Button';
+import "./style.css";
+import { Button } from '../Button';
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 

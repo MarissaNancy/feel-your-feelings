@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react'
-import './MoodsPage.css';
+import './style.css';
 import { Link } from 'react-router-dom';
-import API from '../utils/API';
+import API from '../../utils/API';
 
 
 
-import { Button } from './Button';
+import { Button } from '../Button';
 
 function Moods({ type }) {
     const [drinks, setDrinks] = useState([]);
@@ -38,11 +38,10 @@ function Moods({ type }) {
                 </h3>
                 <div>
                     <h1>Playlist{type}</h1>
-                    {songs.map(songs => {
+                    {SongsData.map(songs => {
                         return (
                             <ul>
-                                <li key={songs.category}>
-                                    {getSongs()}
+                                <li songs={songs}>
                                 </li>
                             </ul>
                         )
@@ -54,11 +53,10 @@ function Moods({ type }) {
                 </h3>
                 <div>
                     <h1>Drinks{type}</h1>
-                    {drinks.map(drinks => {
+                    {DrinksData(drinks => {
                         return (
                             <ul>
-                                <li key={drinks.category}>
-                                    {getDrinks()}
+                                <li drinks={drinks}>
                                 </li>
                             </ul>
                         )
