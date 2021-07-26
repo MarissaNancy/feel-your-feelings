@@ -17,8 +17,7 @@ The page color scheme will change based on the user’s mood.
 
 
 ## Mock-Up 
-(![This is what our page looks like ](./Assets/main1.png))
-
+(![This is what our page looks like ](./Assets/home.png))
 
 ## Collaborators 
 

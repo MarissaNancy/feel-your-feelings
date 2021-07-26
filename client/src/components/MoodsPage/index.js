@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import './style.css';
+import '../MoodsPage/style.css';
 import { Link } from 'react-router-dom';
 import API from '../../utils/API';
 
@@ -38,10 +38,10 @@ function Moods({ type }) {
                 </h3>
                 <div>
                     <h1>Playlist{type}</h1>
-                    {SongsData.map(songs => {
+                    {songs.map(songs => {
                         return (
                             <ul>
-                                <li songs={songs}>
+                                <li songs>
                                 </li>
                             </ul>
                         )
@@ -53,10 +53,10 @@ function Moods({ type }) {
                 </h3>
                 <div>
                     <h1>Drinks{type}</h1>
-                    {DrinksData(drinks => {
+                    {drinks(drinks => {
                         return (
                             <ul>
-                                <li drinks={drinks}>
+                                <li drinks>
                                 </li>
                             </ul>
                         )
