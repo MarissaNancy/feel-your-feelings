@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #000;
+
 }
 body h1 {
     font-size: 36px;
