@@ -1,15 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import '../MoodsPage/style.css';
 import { Link } from 'react-router-dom';
-<<<<<<< HEAD:client/src/components/MoodsPage.js
-import API from '../utils/API';
-// import DrinksData from "../../seeders/drinkseed";
-// import SongData from "../../seeders/songseed";
-=======
 import API from '../../utils/API';
 import { SongsCard } from '../SongsCard/SongsCard.js';
 
->>>>>>> main:client/src/components/MoodsPage/index.js
 
 import { Button } from '../Button';
 
@@ -18,12 +12,19 @@ function Moods({ type }) {
     const [songs, setSongs] = useState([]);
 
     useEffect(() => {
-       
+       type=type[0].toUpperCase()+type.slice(1)
 
         getDrinks()
         getSongs()
     }, [])
      
+    useEffect(() => {
+       
+
+        console.log(drinks);
+        console.log(songs);
+    }, [drinks, songs])
+
     function getDrinks() {
         API.getDrinks(type)
             .then(res =>
@@ -48,15 +49,16 @@ function Moods({ type }) {
                 </h3>
                 <div>
                     <h1>Playlist{type}</h1>
-                    {songs.map(songs => {
+                    {/* {songs.map(song => {
                         return (
                             <ul>
-                                <li songs>
+                                <li >
+                                    {song.name}
                                 </li>
                             </ul>
                         )
-                    })}
-                    <SongsCard />
+                    })} */}
+                    <SongsCard type={type}/>
                 </div>
             </article>
             <article className="relative rounded-lg shadow-xl p-20">
@@ -64,6 +66,15 @@ function Moods({ type }) {
                 </h3>
                 <div>
                     <h1>Drinks{type}</h1>
+                    {drinks.map(drink => {
+                        return (
+                            <ul>
+                                <li >
+                                    {drink.name}
+                                </li>
+                            </ul>
+                        )
+                    })}
                 </div>
             </article>
             <div className="favorite-btn">
