@@ -1,7 +1,7 @@
 import React from 'react';
-import { Button } from './Button';
-import "./HeroSection.css";
-import "../App.css";
+import { Button } from '../Button';
+import "./style.css";
+import "../../App.css";
 import { Link } from 'react-router-dom';
 
 
