@@ -1,4 +1,4 @@
-# Feel-Your-Feelings
+# Feel Your Feelings App
 
 ## Description
 For this project we will be building a full stack mern app! We want to solve a real life problem and our site will be user friendly. Feel-your-feelings is an app designed for anyone who has a hard time finding time for themselves. Since the pandemic some people have had to live remotely or isolate themselves and this app aims to remove lonliness and with this app self-care is only a click away! Pick a mood from our categories and enjoy some alone time with your feelings! After you choose a mood you will be presented with drink options and a playlist to enjoy your drink and indulge in some self care!
