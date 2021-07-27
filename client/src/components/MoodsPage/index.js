@@ -64,7 +64,7 @@ function Moods({ type }) {
             <article className="relative rounded-lg shadow-xl p-20">
                 <h3 className="text-white text-10xl mb-3">
                 </h3>
-                <div>
+                <div className='drink-card'>
                     <h1>Drinks {type}</h1>
                     {drinks.map(drink => {
                         return (
@@ -75,7 +75,7 @@ function Moods({ type }) {
                                 <li >
                                 Contains Alcohol: {drink.alcoholictype}
                                 </li>
-                                <li>
+                                <li> 
                                 <img src={drink.img} />
                                 </li>
                                 <a href={drink.url}><span>URL to buy</span></a>
