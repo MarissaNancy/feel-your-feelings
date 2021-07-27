@@ -70,8 +70,23 @@ function Moods({ type }) {
                         return (
                             <ul>
                                 <li >
-                                    {drink.name}
+                                Drink name: {drink.name}
                                 </li>
+                                {/* <li >
+                                Alcoholic: {drink.alcoholic}
+                                </li> */}
+                                {/* <li >
+                                    {drink.img}
+                                </li> */}
+                                <a href={drink.url}><span>URL to buy</span></a>
+                                <br/>
+                                <li >
+                                Ingridients: {drink.ingridients}
+                                </li>
+                                <li >
+                                How to make: {drink.instructions}
+                                </li>
+                                <br></br>
                             </ul>
                         )
                     })}
