@@ -4,7 +4,7 @@ import "../NavBar/style.css";
 import { Button } from '../Button/index';
 
 
-function Navbar() {
+function Navbar({login, toggle}) {
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
 
@@ -47,13 +47,20 @@ function Navbar() {
                             Login
                         </Link>
                     </li> */}
-                    <li className="nav-item">
-                        <Link to="/sign-up" className="nav-links-mobile" onClick={closeMobileMenu}>
+                    {!login ? (
+                        <li className="nav-item">
+                        <Link to="/sign-up" className="nav-links" onClick={closeMobileMenu}>
                             Sign Up
                         </Link>
                     </li>
+                    ) : (
+                         <Link to="/" className="nav-links" onClick={toggle}>
+                        Logout
+                    </Link>
+                    )}
+                    
                 </ul>
-                {button && <Button buttonStyle="btn--outline">Sign Up</Button> }
+                
             </nav>
         </>
     );
