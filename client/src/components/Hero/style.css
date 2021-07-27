@@ -33,4 +33,8 @@
     position: relative;
     margin-top: +500%;
     }
+
+    .hero-btns{
+        display: contents;
+    }
 }
