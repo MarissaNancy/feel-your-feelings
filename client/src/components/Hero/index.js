@@ -5,11 +5,12 @@ import "../../App.css";
 import { Link } from 'react-router-dom';
 
 
+
 function HeroSection() {
     return (
         <div className="hero-container">
             <div className="lower-section">
-            <h1>Welcome Alejandro, Henry, Nancy and Lilly, how are you feeling Today?</h1>
+            <h1>Welcome, how are you feeling today?</h1>
             <div className="hero-btns">
                 <Link to='/moods/happy' className="btn-mobile">
                 <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">Happy</Button>
