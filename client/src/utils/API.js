@@ -1,5 +1,4 @@
 import axios from "axios"
-
 export default {
 //Gets all moods
 // getMoods: function(){
@@ -9,6 +8,12 @@ export default {
 // getMood: function(id){
 //     return axios.get("/api/moods/" + id);
 // },
+signup: function (userdata){
+    return axios.post("/api/users/sign-up", userdata);
+},
+login: function (userdata){
+    return axios.post("/api/users/login", userdata);
+},
 getDrink: function(){
     return axios.get("/api/drinks");
 },
