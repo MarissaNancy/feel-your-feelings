@@ -27,21 +27,19 @@ Our user is anyone who is looking to make self-care a priority or lives alone an
 
 
 ## Tools and Technologies 
-- Node.js
-- React
-- CSS
+- MongoDB
 - Express 
-- Sequelize
-- Handlebars
+- React
+- Node.js
+- CSS
 - Bcrypt
 - Dotenv
 - Mongoose
 - Passport
 - Jsonwebtoken
 - Axios
-- React Spinners
 - Validator
-- 
+
 ## Contributing
 Please feel free to fork/clone this repository.
 
