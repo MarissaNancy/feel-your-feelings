@@ -96,7 +96,7 @@ let songSeed = [
 
         name: "Sunset Lover",
         author: "Petit Biscuit",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/PETIT%20BISCUIT%20-%20Sunset%20Lover.mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Moody",
 
@@ -105,7 +105,7 @@ let songSeed = [
  
         name: "Fix You",
         author: "Coldplay",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "hhttps://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/Coldplay%20-%20Fix%20You%20(Lyric%20Video).mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Moody",
 
@@ -132,7 +132,7 @@ let songSeed = [
 
         name: "Before You Go",
         author: "Lewis Capaldi",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/Lewis%20Capaldi%20-%20Before%20You%20Go%20(Lyrics).mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Moody",
 
@@ -141,7 +141,7 @@ let songSeed = [
  
         name: "Wherever You Are",
         author: "Kodaline",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/Kodaline%20-%20Wherever%20You%20Are%20(Official%20Lyric%20Video).mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Moody",
 
@@ -150,7 +150,7 @@ let songSeed = [
  
         name: "Be Alright",
         author: "Dean Lewis",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/Dean%20Lewis%20-%20Be%20Alright%20(Lyrics).mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Moody",
  
@@ -159,7 +159,7 @@ let songSeed = [
  
         name: "Are You Happy?",
         author: "SHY Martin",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/SHY%20Martin%20-%20Are%20you%20happy%20(Lyrics).mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Moody",
  
@@ -168,7 +168,7 @@ let songSeed = [
 
         name: "People Help The People",
         author: "Birdy",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/Birdy%20-%20People%20Help%20the%20People%20(Lyrics).mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Moody",
 
@@ -177,7 +177,7 @@ let songSeed = [
 
         name: "Lost Boy",
         author: "Ruth B",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/Ruth%20B.%20-%20Lost%20Boy%20(Lyrics).mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Moody",
  
@@ -186,7 +186,7 @@ let songSeed = [
 
         name: "Holocene",
         author: "Bon Iver",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/Bon%20Iver%20-%20Holocene.mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Tired",
 
@@ -195,7 +195,7 @@ let songSeed = [
 
         name: "Somewhere Only We Know",
         author: "Keane",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/Keane%20-%20Somewhere%20Only%20We%20Know%20(Lyrics).mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Tired",
 
@@ -213,7 +213,7 @@ let songSeed = [
 
         name: "Superman (It’s not Easy)",
         author: "Five for Fighting",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/Superman%20(Its%20Not%20Easy)Five%20for%20Fighting%20(Lyrics).mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Tired",
 
@@ -222,7 +222,7 @@ let songSeed = [
 
         name: "One Last Breath",
         author: "Creed",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/Creed%20-%20One%20Last%20Breath%20(Lyrics).mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Tired",
 
@@ -231,7 +231,7 @@ let songSeed = [
 
         name: "Chasing Cars",
         author: "Snow Patrol",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/Snow%20Patrol%20-%20Chasing%20Cars%20%5BLyrics%5D.mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Tired",
 
@@ -240,7 +240,7 @@ let songSeed = [
 
         name: "Shallow",
         author: "Lady GaGa ft. Bradley Cooper",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/Lady%20Gaga,%20Bradley%20Cooper%20-%20Shallow%20(Lyrics)%20(A%20Star%20Is%20Born%20Soundtrack).mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Tired",
  
@@ -267,7 +267,7 @@ let songSeed = [
 
         name: "Keeping me Alive",
         author: "Jonathan Roy",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/Keeping%20Me%20Alive%20-%20Jonathan%20Roy%20(LYRICS).mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Tired",
  
@@ -285,7 +285,7 @@ let songSeed = [
  
         name: "Don’t Worry Be Happy",
         author: "Bobby McFerrin",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/Bobby%20McFerrin%20-%20Don't%20Worry%20Be%20Happy%20(Official%20Music%20Video).mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Grumpy",
 
@@ -303,7 +303,7 @@ let songSeed = [
  
         name: "Sitting, Waiting, Wishing",
         author: "Jack Johnson",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/Sitting%20Waiting%20Wishing%20by%20Jack%20Johnson%20(lyrics).mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Grumpy",
 
@@ -312,7 +312,7 @@ let songSeed = [
  
         name: "We are never getting back together",
         author: "Taylor Swift",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/We%20Are%20Never%20Ever%20Getting%20Back%20Together%20lyrics.mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Grumpy",
  
@@ -321,7 +321,7 @@ let songSeed = [
 
         name: "So What",
         author: "Pink",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/So%20What.mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Grumpy",
 
@@ -330,7 +330,7 @@ let songSeed = [
 
         name: "Truth Hurts",
         author: "Lizzo",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/Lizzo%20-%20Truth%20Hurts%20(Lyrics).mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Grumpy",
 
@@ -339,7 +339,7 @@ let songSeed = [
 
         name: "Bad Day",
         author: "Daniel Powder",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/Daniel%20Powter%20-%20Bad%20Day%20(Lyrics).mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Grumpy",
 
@@ -348,7 +348,7 @@ let songSeed = [
   
         name: "You outta know",
         author: "Alanis Morisette",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "hhttps://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/You%20Oughta%20Know%20-%20Alanis%20Morissette%20-%20Lyrics.mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Grumpy",
 
@@ -357,7 +357,7 @@ let songSeed = [
  
         name: "Live and Let Die",
         author: "Guns ‘N’ Roses",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/Live%20And%20Let%20Die%20(2018%20Remaster).mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Grumpy",
 
@@ -402,7 +402,7 @@ let songSeed = [
 
         name: "Have You Ever Seen the Rain",
         author: "Creedence Clearwater",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/Creedence%20Clearwater%20Revival%20Have%20You%20Ever%20Seen%20The%20Rain.mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Nostalgic",
 
@@ -411,7 +411,7 @@ let songSeed = [
  
         name: "Tennessee Whiskey",
         author: "Chris Stapleton",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/Chris%20Stapleton%20Tennessee%20Whiskey%20Lyrics.mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Nostalgic",
  
@@ -456,7 +456,7 @@ let songSeed = [
   
         name: "Let’s Stay Together",
         author: "Al Green",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/Al%20Green%20-%20Let's%20Stay%20Together%20(Official%20Audio).mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Romantic",
  
@@ -474,7 +474,7 @@ let songSeed = [
  
         name: "Yellow",
         author: "Coldplay",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/Coldplay%20-%20Yellow%20Lyrics.mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Romantic",
   
@@ -636,7 +636,7 @@ let songSeed = [
  
         name: "End of Time",
         author: "Beyonce",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/Beyonc%C3%A9-End%20of%20Time.mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Active",
  
@@ -672,7 +672,7 @@ let songSeed = [
   
         name: "This is what you came for",
         author: "Rihanna",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/Calvin%20Harris%20ft.%20Rihanna%20-%20This%20Is%20What%20You%20Came%20For%20(Lyrics)%20HD.mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Active",
   
@@ -717,7 +717,7 @@ let songSeed = [
   
         name: "Thunderstruck",
         author: "AC/DC",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/ACDC%20-%20Thunderstruck.mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Motivated",
 
@@ -753,7 +753,7 @@ let songSeed = [
   
         name: "One More Time",
         author: "Daft Punk",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/Daft%20Punk%20-%20One%20more%20time%20(Official%20audio).mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Motivated",
  
@@ -762,7 +762,7 @@ let songSeed = [
   
         name: "Feel So Close",
         author: "Calvin Harris",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/Calvin%20Harris%20-%20Feel%20So%20Close%20(Audio).mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Motivated",
   
@@ -771,7 +771,7 @@ let songSeed = [
    
         name: "Strobe",
         author: "deadmau5",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/Deadmau5%20-%20Strobe%20(Club%20Edit).mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Motivated",
   
@@ -789,7 +789,7 @@ let songSeed = [
    
         name: "Work Bitch",
         author: "Britney Spears",
-        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/True%20Colors.mp3?raw=true",
+        audio: "https://github.com/Lilliemefie/miniproject1/blob/main/song%20for%20FeelYourFeelings/Britney%20Spears%20-%20Work%20Bitch%20(Lyrics).mp3?raw=true",
         img: "https://www.bensound.com/bensound-img/buddy.jpg",
         category: "Motivated",
    
