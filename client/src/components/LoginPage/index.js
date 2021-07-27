@@ -52,10 +52,10 @@ function handleSignupFormSubmit(event){
     return (
         <form className="login-form">
             <label className="login-label">
-                <h1>Email:</h1>
-                <input className="email-field" type="text" name="email" onChange={handleLoginInputChange} />
-                <h1>Password:</h1>
-                <input className="password-field" type="text" name="password" onChange={handleLoginInputChange} />
+                
+                <input className="email-field" type="text" name="email"  placeholder="Email" onChange={handleLoginInputChange} />
+                
+                <input className="password-field" type="text" name="password" placeholder="Password" onChange={handleLoginInputChange} />
                 <Button className="login-btn" buttonStyle="login--btn" buttonSize="btn--large" onClick={handleLoginFormSubmit}>Login</Button>
                 {/* <Link to="/sign-up" className="nav-links-mobile" onClick={closeMobileMenu}>
                             Sign Up
@@ -63,33 +63,33 @@ function handleSignupFormSubmit(event){
             </label>
             <image className="logo"></image>
             <label className="signup-label">
-                <h1>Name:</h1>
+            
                 <input
                     className="name-field"
                     type="text"
                     name="name"
-                    placeholder="username" 
+                    placeholder="Name" 
                     onChange={handleSignupInputChange} />
-                <h1>Email:</h1>
+                
                 <input
                     className="email-field"
                     type="text"
                     name="email"
-                    placeholder="email" 
+                    placeholder="Email" 
                     onChange={handleSignupInputChange} />
-                <h1>Password:</h1>
+        
                 <input
                     className="password-field"
                     type="text"
                     name="password"
-                    placeholder="password" 
+                    placeholder="Password" 
                     onChange={handleSignupInputChange} />
-                <h1>Confirm Password:</h1>
+           
                 <input
                     className="password-field"
                     type="text"
                     name="password2"
-                    placeholder="confirm password" 
+                    placeholder="Confirm Password" 
                     onChange={handleSignupInputChange} />
                 <Button className="signup-btn" type="submit" buttonStyle="signup--btn" buttonSize="btn--large" onClick={handleSignupFormSubmit}>Sign Up</Button>
             </label>

@@ -1,23 +1,37 @@
-# Feel-Your-Feelings
+# Feel Your Feelings App
 
 ## Description
-For this project we will be building a full stack mern app! We want to solve a real life problem and our site will be user friendly. 4
-An app designed for anyone who has a hard time finding time for themselves. With this app you can make time for yourself by picking a type of mood. A user will then be presented with drink options and a playlist to enjoy your drink and indulge in some self care.
+- The user will be able to sign up to the app.
+- Once signed up/logged on, they will directed to the app's dashboard, where they will be asked a question: “How do you feel today?”
+- The user will have up to 10 diffrent mood button to choose from,
+- Based on the user's mood, a playlist, and cocktail will be recommended. 
+- Once the user is done, they will be able to log out of the app
 
-## User Story
-Based on the user’s current mood/feels, they will be able to signup to the HomeAlone app
-They will be asked a question, “How do you feel today?”
-Emojis representing different moods will be displayed for the user to select
-Based on the user’s mood, a playlist, a cocktail and dinner/snack will be recommended. 
-The page color scheme will change based on the user’s mood.
+## Table of Contents 
+- [Installation](#installation)
+- [Demo](#demo)
+- [Contributors](#contributors)
+- [Testing](#testing)
 
-## Directions 
+## Installation
+1) Install [Node](https://nodejs.org/en/) 
+2) Clone repository
+3) In your Terminal/GitBash, direct youself to where the repository was cloned, and enter "npm i," to install necessary dependencies
+4) Once installed, enter "npm start," in your Terminal/GitBash for the app to automatically open in your browser
 
-## Acceptance Criteria
+## Demo
+![This is what our homepage looks like ](./client/src/Assets/home.png)
 
+* This app was created for educational purposes only*
 
-## Mock-Up 
-(![This is what our homepage looks like ](./client/src/Assets/home.png)) client\src\Assets\home.png
+## Contributors
+[Click](https://github.com/MarissaNancy) Nancy Gonzalez |
+[Click](https://github.com/agonzalvez/) Alejandro Gonzalvez |
+[Click](https://github.com/Lilliemefie) Lillie Jirapattanalak |
+[Click](https://github.com/henryparras24) Henry Parras |
+[Third-party music player](https://codepen.io/OlgaKoplik/pen/pXGQNQ)
 
-## Collaborators 
+## Testing
+
+This app was tested using [Insomnia](https://insomnia.rest/), and local browser.
 
