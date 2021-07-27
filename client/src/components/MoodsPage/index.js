@@ -72,12 +72,12 @@ function Moods({ type }) {
                                 <li >
                                 Drink name: {drink.name}
                                 </li>
-                                {/* <li >
-                                Alcoholic: {drink.alcoholic}
-                                </li> */}
-                                {/* <li >
-                                    {drink.img}
-                                </li> */}
+                                <li >
+                                Contains Alcohol: {drink.alcoholictype}
+                                </li>
+                                <li>
+                                <img src={drink.img} />
+                                </li>
                                 <a href={drink.url}><span>URL to buy</span></a>
                                 <br/>
                                 <li >

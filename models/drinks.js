@@ -5,8 +5,8 @@ const Schema = mongoose.Schema;
 //type refers to alcoholic or non
 const DrinkSchema = new Schema({
 
-    alcoholic: {
-        type: Boolean,
+    alcoholictype: {
+        type: String,
         trim: true,
         required: "Type required"
     },
