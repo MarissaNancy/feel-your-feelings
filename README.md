@@ -1,37 +1,29 @@
 # Feel Your Feelings App
 
 ## Description
-- The user will be able to sign up to the app.
-- Once signed up/logged on, they will directed to the app's dashboard, where they will be asked a question: “How do you feel today?”
-- The user will have up to 10 diffrent mood button to choose from,
-- Based on the user's mood, a playlist, and cocktail will be recommended. 
-- Once the user is done, they will be able to log out of the app
+For this project we will be building a full stack mern app! We want to solve a real life problem and our site will be user friendly. Feel-your-feelings is an app designed for anyone who has a hard time finding time for themselves. Since the pandemic some people have had to live remotely or isolate themselves and this app aims to remove lonliness and with this app self-care is only a click away! Pick a mood from our categories and enjoy some alone time with your feelings! After you choose a mood you will be presented with drink options and a playlist to enjoy your drink and indulge in some self care!
 
-## Table of Contents 
-- [Installation](#installation)
-- [Demo](#demo)
-- [Contributors](#contributors)
-- [Testing](#testing)
+## User Story
+Our user is anyone who is looking to make self-care a priority or lives alone and wants to enjoy their own company. Users will be able to pick a mood that they are feeling and based on the mood chosen the user will be presented with a playlist and drink options to enjoy while listening to the playlist.Our app is designed with everyone in mind so the drink options also include non-alcoholic drinks.
 
-## Installation
-1) Install [Node](https://nodejs.org/en/) 
-2) Clone repository
-3) In your Terminal/GitBash, direct youself to where the repository was cloned, and enter "npm i," to install necessary dependencies
-4) Once installed, enter "npm start," in your Terminal/GitBash for the app to automatically open in your browser
+## Directions
+After a user signs up or login they will be able to choose a type of mood that they are in. After they choose a mood the user will be presented with a list of ten songs and a list of three drink options that they can make at home
 
-## Demo
-![This is what our homepage looks like ](./client/src/Assets/home.png)
+## Acceptance Criteria
+Given when opening the app and the user can sign up or login
+Given when after loging in the user can choose from our categories of 10 moods
+Given after choosing a mood the user will be presented with a playlist of 10 songs and 3 drink options
 
-* This app was created for educational purposes only*
+## Mock-Up 
+(![This is what our homepage looks like ](./client/src/Assets/home.png)) 
 
-## Contributors
-[Click](https://github.com/MarissaNancy) Nancy Gonzalez |
-[Click](https://github.com/agonzalvez/) Alejandro Gonzalvez |
-[Click](https://github.com/Lilliemefie) Lillie Jirapattanalak |
-[Click](https://github.com/henryparras24) Henry Parras |
-[Third-party music player](https://codepen.io/OlgaKoplik/pen/pXGQNQ)
+## Collaborators 
+Alejandro Gonzalvez
+Henry Parras
+Lillie Jirpattanalak
+Nancy Gonzalez
 
-## Testing
 
-This app was tested using [Insomnia](https://insomnia.rest/), and local browser.
 
+
+No copyright intended for educational purposes only
