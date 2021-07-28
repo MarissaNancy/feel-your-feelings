@@ -18,7 +18,7 @@ Our user is anyone who is looking to make self-care a priority or lives alone an
 
 ## Usage 
 *Instructions and examples for use:* 
-> **To use this application**: visit (live URL) *the link is coming soon
+> **To use this application**: visit [Feel Your Feelings](https://shrouded-lake-27009.herokuapp.com/) 
 1. After a user signs up or login they will be able to choose a type of mood that they are in.
 2. After they choose a mood the user will be presented with a list of ten songs and a list of three drink options that they can make at home
 
@@ -72,4 +72,4 @@ If you have any questions or want to make a contribution please reach out to us:
 * Lillie Jirapattanalak [GitHub](https://github.com/lilliemefie) || Email: lilliejira@gmail.com
 
 <br>
-No copyright intended for educational purposes only
+No copyright intended. This app was created for educational purposes only
