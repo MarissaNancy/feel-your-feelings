@@ -75,14 +75,14 @@ function handleSignupFormSubmit(event){
                     className="email-field"
                     type="text"
                     name="email"
-                    placeholder="Email" 
+                    placeholder="Email"
                     onChange={handleSignupInputChange} />
         
                 <input
                     className="password-field"
                     type="text"
                     name="password"
-                    placeholder="Password" 
+                    placeholder="Password"
                     onChange={handleSignupInputChange} />
            
                 <input
